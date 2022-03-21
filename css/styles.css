@@ -47,3 +47,74 @@ body {
 .contacts .link {
   color: var(--primary-text-color);
 }
+
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+button {
+  background: var(--mark-color);
+  color: #ffffff;
+  border: none;
+}
+
+h2 {
+  color: var(--secondaty-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+h3 {
+  color: var(--secondaty-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.features .list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.job {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.name {
+  color: var(--secondaty-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.bottom {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+/* .logowhite {
+  font-family: Raleway;
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+} */
+
+.site-nav .link {
+  color: var(--secondaty-text-color);
+}
