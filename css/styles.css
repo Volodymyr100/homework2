@@ -48,6 +48,10 @@ body {
   color: var(--primary-text-color);
 }
 
+.contacts .link:hover {
+  color: var(--mark-color);
+}
+
 .hero {
   background-color: #2f303a;
   color: #ffffff;
@@ -55,7 +59,7 @@ body {
   text-align: center;
 }
 
-button {
+.mainbutton {
   background: var(--mark-color);
   color: #ffffff;
   border: none;
@@ -124,4 +128,36 @@ address {
 
 .bottom .link {
   color: var(--primary-color);
+}
+
+.secondbutton {
+  background: var(--secondary-color);
+  color: var(--secondaty-text-color);
+  border: none;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.secondbutton:hover {
+  background-color: var(--mark-color);
+  color: var(--primary-color);
+}
+
+.website {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondaty-text-color);
+}
+
+.webtype {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
