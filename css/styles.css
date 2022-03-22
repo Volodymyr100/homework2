@@ -59,6 +59,8 @@ button {
   background: var(--mark-color);
   color: #ffffff;
   border: none;
+  font-size: 14px;
+  line-height: 2.14;
 }
 
 h2 {
@@ -107,14 +109,19 @@ h3 {
   color: #ffffff;
 }
 
-/* .logowhite {
+.logowhite {
   font-family: Raleway;
   color: var(--primary-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-} */
+}
 
-.site-nav .link {
-  color: var(--secondaty-text-color);
+address {
+  color: #ffffff;
+  font-style: normal;
+}
+
+.bottom .link {
+  color: var(--primary-color);
 }
