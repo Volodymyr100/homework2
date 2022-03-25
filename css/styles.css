@@ -83,9 +83,10 @@ p {
   background: var(--mark-color);
   color: #ffffff;
   border: none;
-  font-size: 14px;
-  line-height: 2.14;
+  font-size: 16px;
+  line-height: 1.9;
   font-family: Roboto, sans-serif;
+  font-weight: 700;
 }
 
 h2 {
@@ -134,7 +135,11 @@ h3 {
   color: #ffffff;
 }
 
-.logowhite {
+.bottom .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.bottom .logowhite {
   font-family: Raleway;
   color: var(--primary-color);
   font-weight: 700;
@@ -145,10 +150,6 @@ h3 {
 address {
   color: #ffffff;
   font-style: normal;
-}
-
-.bottom .link {
-  color: rgba(255, 255, 255, 0.6);
 }
 
 .secondbutton {
